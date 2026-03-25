@@ -7,4 +7,13 @@ fun main() {
         println("Number : $number")
         number ++
     }
+    //For loops
+    for (letter in 'a'.. 'z'){
+        println("letter : $letter")
+
+    }
+    var cars =arrayOf("Toyota","Mercedes","Volvo")
+    for(car in cars) {
+        println(car)
+    }
 }
